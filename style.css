@@ -21,7 +21,6 @@ body{
     padding: 30px 0px 30px 0px ;
     box-shadow: 10px 5px 5px #213140;
     color: #080e1f;
-    
 }
 
 .plan-price{
@@ -61,5 +60,21 @@ body{
     .pricing-container{
         flex-direction: column;
         height: 100%;
+        zoom: 200%;
+    }
+    .pricing-plan{
+        min-width: 300px;
+        
+    }
+    .plan-title{
+        font-size: 48px;
+    }
+    .plan-price{
+        font-size: 68px;
+    }
+    .plan-button{
+        font-size: 32px;
+        height: 48px;
+        width: 160px;
     }
 }
