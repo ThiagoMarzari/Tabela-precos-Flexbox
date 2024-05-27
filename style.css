@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(94, 103, 104);
 }
 
 .pricing-container {
@@ -61,18 +60,18 @@ body{
     .pricing-container{
         flex-direction: column;
         height: 100%;
+        
         zoom: 200%;
     }
     .pricing-plan{
-        min-width: 300px;
-        flex-wrap: wrap;
-        
+        min-width: 450px;        
+        word-wrap: break-word;
     }
     .plan-title{
         font-size: 48px;
     }
     .plan-price{
-        font-size: 68px;
+        font-size: 52px;
     }
     .plan-button{
         font-size: 32px;
